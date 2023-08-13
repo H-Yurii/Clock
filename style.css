@@ -815,12 +815,12 @@ body {
 
 .background {
     position: relative;
-    transform: translateX(-620px) translateY(180px);
+    transform: translateX(-890px) translateY(270px);
 }
 
 .gear-background {
     position: absolute;
-    width: 200px;
+    width: 300px;
     animation: gear 60s steps(60, end) infinite;
 }
 
@@ -832,6 +832,7 @@ body {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -839,12 +840,12 @@ body {
 
 .background-2 {
     position: relative;
-    transform: translateX(-790px) translateY(45px);
+    transform: translateX(-1130px) translateY(75px);
 }
 
 .gear-background-2 {
     position: absolute;
-    width: 250px;
+    width: 350px;
     animation: gear 90s steps(90, end) infinite;
 }
 
@@ -864,12 +865,12 @@ body {
 
 .background-3 {
     position: relative;
-    transform: translateX(350px) translateY(80px);
+    transform: translateX(310px) translateY(-290px);
 }
 
 .gear-background-3 {
     position: absolute;
-    width: 200px;
+    width: 400px;
     animation: gear 60s steps(60, end) infinite;
 }
 
