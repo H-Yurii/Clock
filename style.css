@@ -27,19 +27,27 @@ body {
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    border: 15px solid #e0ac00;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ebe7cd;
-    transition: 0.3s;
+    background: linear-gradient(rgb(116, 69, 27), #e4ae5c);
     cursor: pointer;
+    box-shadow: 0px 20px 50px #000000;
 }
 
+.clock__body::before {
+    content: '';
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    border-radius: 50%;
+    background: linear-gradient(#de9555, #ae5b09);
+    z-index: -1;
+}
 
 .clock__body:hover {
-    background-color: #000;
+    background: linear-gradient(#000, #000);
 }
 
 .clock__body:hover .block {
@@ -122,7 +130,7 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: #ffe240;
+    background-color: #bf8512;
     transition: 0.3s;
     position: absolute;
 }
@@ -131,7 +139,7 @@ body {
     position: absolute;
     bottom: 50%;
     width: 35px;
-    border-bottom: 100px solid #ecef41;
+    border-bottom: 100px solid #eda12f;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     animation: step 84600s steps(84600, end) infinite;
@@ -183,7 +191,7 @@ body {
     position: absolute;
     bottom: 50%;
     width: 23px;
-    border-bottom: 180px solid #faff61;
+    border-bottom: 180px solid #f0a535;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     animation: step 3600s steps(3600, end) infinite;
@@ -220,7 +228,7 @@ body {
     position: absolute;
     bottom: 50%;
     width: 20px;
-    border-bottom: 170px solid #f6ff00;
+    border-bottom: 170px solid #ecaa46;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     animation: step 60s steps(60, end) infinite;
@@ -342,7 +350,7 @@ body {
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: #d09100;
+    background-color: #e8aa1b;
     border-radius: 100%;
     top: 50px;
     left: 105px;
